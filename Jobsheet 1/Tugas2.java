@@ -34,9 +34,9 @@ public class Tugas2 {
     static void hitungKecepatan(){
         Scanner sc2=new Scanner(System.in);
         System.out.print("Masukkan nilai jarak : ");
-        jarak = sc2.nextInt();
+        jarak = sc2.nextDouble();
         System.out.print("Masukkan nilai waktu : ");
-        waktu = sc2.nextInt();
+        waktu = sc2.nextDouble();
         kecepatan = jarak/waktu;
         System.out.println("Nilai Kecepatan = " + kecepatan);
         tampilMenu();
@@ -46,9 +46,9 @@ public class Tugas2 {
     static void hitungJarak(){
         Scanner sc3=new Scanner(System.in);
         System.out.print("Masukkan nilai kecepatan : ");
-        kecepatan = sc3.nextInt();
+        kecepatan = sc3.nextDouble();
         System.out.print("Masukkan nilai waktu : ");
-        waktu = sc3.nextInt();
+        waktu = sc3.nextDouble();
         jarak = kecepatan * waktu;
         System.out.println("Nilai Jarak = " + jarak);
         tampilMenu();
@@ -58,9 +58,9 @@ public class Tugas2 {
     static void hitungWaktu(){
         Scanner sc4=new Scanner(System.in);
         System.out.print("Masukkan nilai jarak : ");
-        jarak = sc4.nextInt();
+        jarak = sc4.nextDouble();
         System.out.print("Masukkan nilai kecepatan : ");
-        kecepatan = sc4.nextInt();
+        kecepatan = sc4.nextDouble();
         waktu = kecepatan/jarak;
         System.out.println("Nilai Waktu = " + waktu);
         tampilMenu();
